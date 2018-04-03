@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481BF1AF2073EC8E002531C2 /* Pergunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BF1AE2073EC8E002531C2 /* Pergunta.swift */; };
+		481BF1B12073ECAF002531C2 /* Mensagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BF1B02073ECAF002531C2 /* Mensagens.swift */; };
 		48200E362072BEBC00BFEC8C /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48200E352072BEBB00BFEC8C /* image1.png */; };
 		48200E382072CCF800BFEC8C /* GameControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48200E372072CCF800BFEC8C /* GameControler.swift */; };
 		48B8C4AD2072AB0800B5D13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8C4AC2072AB0800B5D13E /* AppDelegate.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481BF1AE2073EC8E002531C2 /* Pergunta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pergunta.swift; sourceTree = "<group>"; };
+		481BF1B02073ECAF002531C2 /* Mensagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensagens.swift; sourceTree = "<group>"; };
 		48200E352072BEBB00BFEC8C /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = SOURCE_ROOT; };
 		48200E372072CCF800BFEC8C /* GameControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControler.swift; sourceTree = "<group>"; };
 		48B8C4A92072AB0800B5D13E /* first_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +108,8 @@
 				48B8C4AC2072AB0800B5D13E /* AppDelegate.swift */,
 				48B8C4AE2072AB0800B5D13E /* ViewController.swift */,
 				48200E372072CCF800BFEC8C /* GameControler.swift */,
+				481BF1AE2073EC8E002531C2 /* Pergunta.swift */,
+				481BF1B02073ECAF002531C2 /* Mensagens.swift */,
 				48B8C4B02072AB0800B5D13E /* Main.storyboard */,
 				48B8C4B32072AB0800B5D13E /* Assets.xcassets */,
 				48200E352072BEBB00BFEC8C /* image1.png */,
@@ -268,7 +274,9 @@
 			files = (
 				48B8C4AF2072AB0800B5D13E /* ViewController.swift in Sources */,
 				48B8C4AD2072AB0800B5D13E /* AppDelegate.swift in Sources */,
+				481BF1B12073ECAF002531C2 /* Mensagens.swift in Sources */,
 				48200E382072CCF800BFEC8C /* GameControler.swift in Sources */,
+				481BF1AF2073EC8E002531C2 /* Pergunta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = first_project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.first-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = first_project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.first-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
